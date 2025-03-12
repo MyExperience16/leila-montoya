@@ -14,7 +14,7 @@ const Index = () => {
     email: "montoya.leila.2006@gmail.com",
     linkedinUrl: "https://www.linkedin.com/in/leila-montoya/",
     instagramUrl: "https://www.instagram.com/leila.m_1606?igsh=MWM1ZWdkYWFkbmlscw==",
-    resumeUrl: new URL('@/assets/resume.pdf', import.meta.url).href
+    resumeUrl: new URL('@/assets/leila-montoya/resume.pdf', import.meta.url).href
   };
 
   // Initialize scroll animation observer

@@ -125,50 +125,50 @@ export const Education = () => {
           </p>
         </div>
 
-        <div className="flex justify-center gap-4 mb-12">
-        <button
-          onClick={() => setActiveTab('education')}
-          className={`glass-button w-full sm:w-auto px-8 py-3 text-foreground font-medium rounded-full transition-all ${
-            activeTab === 'education'
-              ? 'bg-primary text-white'
-              : 'bg-transparent text-muted-foreground'
-          }`}
-        >
-          <div className="flex items-center justify-center gap-2">
-            <GraduationCap className="h-5 w-5 hidden sm:inline-block" />
-            <span className="block sm:inline">Education</span>
-          </div>
-        </button>
+        <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
+          <button
+            onClick={() => setActiveTab('education')}
+            className={`glass-button w-full sm:w-auto px-8 py-3 text-foreground font-medium rounded-full transition-all ${
+              activeTab === 'education'
+                ? 'bg-primary text-white'
+                : 'bg-transparent text-muted-foreground'
+            }`}
+          >
+            <div className="flex items-center justify-center gap-2">
+              <GraduationCap className="h-5 w-5" />
+              <span className="block sm:inline">Education</span>
+            </div>
+          </button>
 
-        <button
-          onClick={() => setActiveTab('experience')}
-          className={`glass-button w-full sm:w-auto px-8 py-3 text-foreground font-medium rounded-full transition-all ${
-            activeTab === 'experience'
-              ? 'bg-primary text-white'
-              : 'bg-transparent text-muted-foreground'
-          }`}
-        >
-          <div className="flex items-center justify-center gap-2">
-            <Briefcase className="h-5 w-5 hidden sm:inline-block" />
-            <span className="block sm:inline">Experience</span>
-          </div>
-        </button>
+          <button
+            onClick={() => setActiveTab('experience')}
+            className={`glass-button w-full sm:w-auto px-8 py-3 text-foreground font-medium rounded-full transition-all ${
+              activeTab === 'experience'
+                ? 'bg-primary text-white'
+                : 'bg-transparent text-muted-foreground'
+            }`}
+          >
+            <div className="flex items-center justify-center gap-2">
+              <Briefcase className="h-5 w-5" />
+              <span className="block sm:inline">Experience</span>
+            </div>
+          </button>
 
-        <button
-          onClick={() => setActiveTab('extracurricular')}
-          className={`glass-button w-full sm:w-auto px-8 py-3 text-foreground font-medium rounded-full transition-all ${
-            activeTab === 'extracurricular'
-              ? 'bg-primary text-white'
-              : 'bg-transparent text-muted-foreground'
-          }`}
-        >
-          <div className="flex items-center justify-center gap-2">
-            <Star className="h-5 w-5 hidden sm:inline-block" />
-            <span className="block sm:inline">Extracurricular</span>
-          </div>
-        </button>
-
+          <button
+            onClick={() => setActiveTab('extracurricular')}
+            className={`glass-button w-full sm:w-auto px-8 py-3 text-foreground font-medium rounded-full transition-all ${
+              activeTab === 'extracurricular'
+                ? 'bg-primary text-white'
+                : 'bg-transparent text-muted-foreground'
+            }`}
+          >
+            <div className="flex items-center justify-center gap-2">
+              <Star className="h-5 w-5" />
+              <span className="block sm:inline">Extracurricular</span>
+            </div>
+          </button>
         </div>
+
         <div className="relative max-w-4xl mx-auto" key={key}>
           <div className="absolute left-1/2 transform -translate-x-1/2 top-0 bottom-0 w-0.5 bg-border"></div>
 

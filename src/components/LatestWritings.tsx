@@ -12,22 +12,22 @@ interface BlogPost {
 const blogPosts: BlogPost[] = [
   {
     id: 1,
-    title: "In Progress: Hayley Matthews-Jones",
-    excerpt: "The London-born entrepreneur behind the Minneapolis Craft and Vintage Markets.",
-    thumbnail: "https://meettheminnesotamakers.com/wp-content/uploads/2022/03/hayley-matthews-jones.jpg",
-    url: "#",
+    title: "Hayley Matthews-Jones: How having a vision for the world helps make it a home",
+    excerpt: "From London to Minneapolis, Hayley's entrepreneurial journey illustrates how we can pursue our ambitions while implementing sustainable business practices that benefit our community.",
+    thumbnail: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*3tsPe0elMYdSwGAnIttV_g.jpeg",
+    url: "https://medium.com/@montoya.leila.2006/hayley-mathews-jones-how-having-a-vision-for-the-world-helps-make-it-a-home-4e37df8d41e7",
   },
   {
     id: 2,
-    title: "Benefits of meeting real people: Making your money work for you",
-    excerpt: "Exploring the path to financial freedom, John Montoya helps others learn how to manage their wealth independently, challenging the norms of modern banking.",
+    title: "John Montoya: Making your money work for you",
+    excerpt: "Exploring the path to financial freedom, John helps others learn how to manage their wealth independently, challenging the norms of modern banking.",
     thumbnail: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*sqgUhtkUxXNqKwLIyxxynQ.png",
     url: "https://medium.com/@montoya.leila.2006/benefits-of-meeting-real-people-making-your-money-work-for-you-6a199a6669f2",
   },
   {
     id: 3,
-    title: "Breaking Away From Monotony: What you can learn from running a business and beyond",
-    excerpt: "Suzanne Varecka’s story reveals how stepping outside routine and embracing curiosity can drive both business and personal growth.",
+    title: "Suzanne Varecka: What you can learn from running a business and beyond",
+    excerpt: "An inspiration to business owners, Suzanne's unconventional story reveals the benefits of trying new things and how breaking away from monotony can drive both business and personal growth.",
     thumbnail: "https://miro.medium.com/v2/resize:fit:748/format:webp/1*iRV7cEcKSnB44oSVF4kK7g.jpeg",
     url: "https://medium.com/@montoya.leila.2006/breaking-away-from-monotony-youre-curious-for-a-reason-discover-why-74aec5e60716",
   }
